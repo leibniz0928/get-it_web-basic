@@ -3,16 +3,59 @@
     <head>
         <title>강민찬의 NETFLIX</title>
         <meta charset="UTF-8">
+        <style>
+            .taka{
+                color:blue;
+                font-weight:bold
+            }
+            .amy{
+                color:rgb(199, 73, 94);
+                font-weight:bold
+            }
+            .note{
+                font-weight:bold
+            }
+        </style>
     </head>
     <body>
-        <h1>강민찬의 NETFLIX 추천작</h1>
+        <h1>NETFLIX 추천작-강민찬</h1>
+        <input type="button" value="night mode" onclick="
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color='white';
+        ">
+        <input type="button" value="day mode" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color='black';
+        ">
         <h3>2025/03/26 오늘의 추천</h3>
         <ol>
             <li><a href="2.html" title="cyberpunk">사이버펑크:엣지러너</a><br>
+                <p>
+                    주인공 <span style="background-color:lightgreen;font-weight:bold;color:black">데이비드 마르티네즈</span>는 나이트 시티의 가난한 고등학생이다. 사고로 어머니를 잃고, 학업과 생계 모두에서 벼랑 끝에 몰린다.<br>
+                    그러던 중, 어머니가 남긴 불법 사이버웨어 산데비스탄을 자신의 몸에 이식하게 된다.<br>
+                    그 후, 데이비드는 루시라는 넷러너를 만나고, 용병 집단 엣지러너에 합류하게 된다. 점점 더 위험한 임무에 뛰어들면서,<br>
+                    데이비드는 점점 더 강력한 사이버웨어를 장착하고, 그 대가로 사이버 정신병의 위험에 가까워진다.<br>
+                    끝내 그는 자신이 지키고 싶은 사람과 목표를 위해 모든 것을 걸게 되고, 나이트 시티의 잔혹한 현실 속에서 비극적인 선택을 하게 된다.
+                </p>
                 <img src="cyberpunk.jpg" width="30%"></li>
             <li><a href="3.html" title="나는 내일 어제의 너와 만난다">나는 내일 어제의 너와 만난다</a><br>
-                <img src="romance.jpg" width="10%"></li>
+                <p>
+                    예술대학에 다니는 청년 <span class="taka">타카토시</span>는 전철 안에서 한 소녀 <span class="amy">에미</span>에게 첫눈에 반한다.<br>
+                    용기를 내어 말을 걸고, 두 사람은 점점 가까워진다. 서로에게 끌리고 사랑이 깊어진다.<br>
+                    하지만 <span class="amy">에미</span>에게는 큰 비밀이 있다. 그녀는 <span class="taka">타카토시</span>와는 반대 방향으로 시간이 흐르는 세계에서 왔다.<br>
+                    <span class="taka">타카토시</span>에게는 첫 만남이지만, <span class="amy">에미</span>에게는 마지막 만남이 된다.시간이 어긋난 두 사람은 짧은 운명 속에서 하루하루를 소중히 보내게 된다.<br>
+                    끝내 <span class="taka">타카토시</span>는 진실을 마주하고, <span class="amy">에미</span>와의 이별을 받아들이게 된다.
+                </p>
+                <img src="romance.jpg" width="18%"></li>
             <li><a href="4.html" title="notebook">노트북</a><br>
+                <p>
+                    한 노인이 요양원에서 한 여성에게 오래된 사랑 이야기를 들려준다.<br>
+                    이야기는 젊은 시절, 가난한 청년 <span class="note">노아</span>와 부잣집 딸 <span class="note">앨리</span>가 만나 사랑에 빠지는 것으로 시작된다.<br>
+                    두 사람은 여름 동안 깊은 사랑을 나누지만, 집안의 반대와 현실적인 차이로 인해 결국 갈라서게 된다.<br>
+                    시간이 흐른 뒤, <span class="note">앨리</span>는 다른 사람과 약혼하게 되고, <span class="note">노아</span>는 예전의 약속을 지키기 위해 오래된 집을 복원한다.<br>
+                    어느 날, <span class="note">앨리</span>는 신문에서 <span class="note">노아</span>의 소식을 보게 되고, 잊고 지냈던 감정이 다시 흔들리게 된다.<br>
+                    그녀는 <span class="note">노아</span>를 찾아가고, 두 사람은 다시 마주하게 된다.
+                </p>
                 <img src="notebook.jpg" width="25%"></li>
         </ol>
     </body>
